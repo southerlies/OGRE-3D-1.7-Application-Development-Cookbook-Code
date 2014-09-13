@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PluginManager", "PluginManager\PluginManager.vcxproj", "{D219A620-DD26-4A71-AED6-44495D32A91C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FACE7139-BBA1-474D-B708-6D4A7DDADCD7} = {FACE7139-BBA1-474D-B708-6D4A7DDADCD7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Robot3", "Robot3\Robot3.vcxproj", "{FACE7139-BBA1-474D-B708-6D4A7DDADCD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D219A620-DD26-4A71-AED6-44495D32A91C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D219A620-DD26-4A71-AED6-44495D32A91C}.Debug|Win32.Build.0 = Debug|Win32
+		{D219A620-DD26-4A71-AED6-44495D32A91C}.Release|Win32.ActiveCfg = Release|Win32
+		{D219A620-DD26-4A71-AED6-44495D32A91C}.Release|Win32.Build.0 = Release|Win32
+		{FACE7139-BBA1-474D-B708-6D4A7DDADCD7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FACE7139-BBA1-474D-B708-6D4A7DDADCD7}.Debug|Win32.Build.0 = Debug|Win32
+		{FACE7139-BBA1-474D-B708-6D4A7DDADCD7}.Release|Win32.ActiveCfg = Release|Win32
+		{FACE7139-BBA1-474D-B708-6D4A7DDADCD7}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

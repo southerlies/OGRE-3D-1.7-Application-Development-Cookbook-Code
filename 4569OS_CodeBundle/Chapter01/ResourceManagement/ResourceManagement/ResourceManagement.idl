@@ -1,0 +1,29 @@
+// ResourceManagement.idl : type library source for ResourceManagement.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (ResourceManagement.tlb).
+
+[ uuid(F1BAE2FB-A8E4-4027-9545-A13C8FEDF25B), version(1.0) ]
+library ResourceManagement
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CResourceManagementDoc
+	
+	[ uuid(E8A91AB6-C9E7-4541-93B6-AFE1C95A1B56) ]
+	dispinterface IResourceManagement
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CResourceManagementDoc
+	
+	[ uuid(3A4A67EA-4C7B-40E2-B488-40E775F7A3F5) ]
+	coclass CResourceManagementDoc
+	{
+		[default] dispinterface IResourceManagement;
+	};
+};

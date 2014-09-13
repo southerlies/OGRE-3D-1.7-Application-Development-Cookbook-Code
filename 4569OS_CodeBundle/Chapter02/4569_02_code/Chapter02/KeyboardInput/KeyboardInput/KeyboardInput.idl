@@ -1,0 +1,29 @@
+// KeyboardInput.idl : type library source for KeyboardInput.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (KeyboardInput.tlb).
+
+[ uuid(9CB059F4-A3A3-4247-A2AF-CC267E12835E), version(1.0) ]
+library KeyboardInput
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CKeyboardInputDoc
+	
+	[ uuid(DB130AF4-AE74-4E06-8933-9DF7861C4910) ]
+	dispinterface IKeyboardInput
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CKeyboardInputDoc
+	
+	[ uuid(73B476C4-E62C-4BDA-B7EA-67647CC45592) ]
+	coclass CKeyboardInputDoc
+	{
+		[default] dispinterface IKeyboardInput;
+	};
+};

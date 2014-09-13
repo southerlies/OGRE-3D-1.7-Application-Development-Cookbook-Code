@@ -1,0 +1,29 @@
+// OgreInMfc.idl : type library source for OgreInMfc.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (OgreInMfc.tlb).
+
+[ uuid(EDD66EC0-E1DB-45B1-ACE8-767F8743C954), version(1.0) ]
+library OgreInMfc
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for COgreInMfcDoc
+	
+	[ uuid(AD471551-0C86-4F44-A945-EA2D4B6780D8) ]
+	dispinterface IOgreInMfc
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for COgreInMfcDoc
+	
+	[ uuid(AC647C57-6BDF-4FF3-BE67-F21DF24A3F2D) ]
+	coclass COgreInMfcDoc
+	{
+		[default] dispinterface IOgreInMfc;
+	};
+};

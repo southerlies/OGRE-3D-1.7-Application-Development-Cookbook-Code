@@ -1,0 +1,80 @@
+material LightBeam
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture White.jpg
+			}
+		}
+	}
+}
+material Wall/Black
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+
+			texture_unit
+			{
+				texture Black.jpg
+			}
+		}
+	}
+}
+
+material Wall/Grey
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+
+			texture_unit
+			{
+				texture Grey.jpg
+			}
+		}
+	}
+}
+
+material Wall/White
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+
+			texture_unit
+			{
+				texture White.jpg
+			}
+		}
+	}
+}
+
+material Wall/Screen
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1
+
+			texture_unit
+			{
+				texture Yellow.jpg
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+HKEY_CLASSES_ROOT\.scn,mesh = OgreInRibbon.Document
+HKEY_CLASSES_ROOT\OgreInRibbon.Document\shell\open\command = OgreInRibbon.EXE %1
+HKEY_CLASSES_ROOT\OgreInRibbon.Document\shell\open\ddeexec = [open("%1")]
+HKEY_CLASSES_ROOT\OgreInRibbon.Document\shell\open\ddeexec\application = OgreInRibbon
+    ; note: the application is optional
+    ;  (it defaults to the app name in "command")
+
+HKEY_CLASSES_ROOT\OgreInRibbon.Document = OgreInRibbon.Document
+
+
+HKEY_CLASSES_ROOT\OgreInRibbon.Document\CLSID = {001D7781-B45B-44EF-996B-E43F4EAF1B94}
+
+HKEY_CLASSES_ROOT\CLSID\{001D7781-B45B-44EF-996B-E43F4EAF1B94} = OgreInRibbon.Document
+HKEY_CLASSES_ROOT\CLSID\{001D7781-B45B-44EF-996B-E43F4EAF1B94}\ProgId = OgreInRibbon.Document
+
+HKEY_CLASSES_ROOT\CLSID\{001D7781-B45B-44EF-996B-E43F4EAF1B94}\LocalServer32 = OgreInRibbon.EXE

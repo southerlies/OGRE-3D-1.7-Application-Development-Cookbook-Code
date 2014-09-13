@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RootSceneNode><SceneNode SceneNodeName="Ogre/SceneRoot"><SceneNode SceneNodeName="CameraNode"><Camera CameraName="Camera" XPosition="200.000000" YPosition="50.000000" ZPosition="100.000000" XDirection="-0.888767" YDirection="-0.006624" ZDirection="-0.458312"/></SceneNode><SceneNode SceneNodeName="Unnamed_1"><Entity EntityName="Robot" MeshName="robot.mesh"/></SceneNode></SceneNode></RootSceneNode>

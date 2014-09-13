@@ -1,0 +1,30 @@
+﻿<GRAMMAR LANGID="409">
+  
+  <DEFINE>
+    <ID NAME="VID_Sad" VAL="1"/>
+    <ID NAME="VID_Mad" VAL="2"/>
+    <ID NAME="VID_Neutral" VAL="3"/>
+    <ID NAME="VID_Happy" VAL="4"/>
+    <ID NAME="VID_ShowExpression" VAL="21"/>
+    <ID NAME="VID_ExpressionType" VAL="22"/>
+  </DEFINE>
+  
+  <RULE ID="VID_ShowExpression" TOPLEVEL="ACTIVE">
+    <O>Please</O>
+    <O>show</O>
+    <P>
+      <RULEREF REFID="VID_ExpressionType"/>
+    </P>
+    <O>expression</O>
+  </RULE>
+
+  <RULE ID="VID_ExpressionType">
+    <L PROPID="VID_ExpressionType">
+      <P VAL="VID_Sad">sad</P>
+      <P VAL="VID_Mad">mad</P>
+      <P VAL="VID_Neutral">neutral</P>
+      <P VAL="VID_Happy">happy</P>
+    </L>
+  </RULE>
+  
+</GRAMMAR>

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ViewManager", "ViewManager\ViewManager.vcxproj", "{DB6CEAC4-D748-4C7C-B158-A265264EEC44}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZoomManager", "ZoomManager\ZoomManager.vcxproj", "{CA04D12B-70D9-446E-8B58-A42B41BA2873}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ViewForObject", "ViewForObject\ViewForObject.vcxproj", "{C10C88CB-10F8-4797-8AA4-65120C983072}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OrbitView", "OrbitView\OrbitView.vcxproj", "{CA6D2638-C173-4B1A-AD50-16284F1B215C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nearest", "Nearest\Nearest.vcxproj", "{CEC31E82-0B20-4AB2-8BA0-F8E066B12C5E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Visibility", "Visibility\Visibility.vcxproj", "{E6460D68-E2B1-4F89-8FCB-B9A4BA3FEE70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB6CEAC4-D748-4C7C-B158-A265264EEC44}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB6CEAC4-D748-4C7C-B158-A265264EEC44}.Debug|Win32.Build.0 = Debug|Win32
+		{DB6CEAC4-D748-4C7C-B158-A265264EEC44}.Release|Win32.ActiveCfg = Release|Win32
+		{DB6CEAC4-D748-4C7C-B158-A265264EEC44}.Release|Win32.Build.0 = Release|Win32
+		{CA04D12B-70D9-446E-8B58-A42B41BA2873}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CA04D12B-70D9-446E-8B58-A42B41BA2873}.Debug|Win32.Build.0 = Debug|Win32
+		{CA04D12B-70D9-446E-8B58-A42B41BA2873}.Release|Win32.ActiveCfg = Release|Win32
+		{CA04D12B-70D9-446E-8B58-A42B41BA2873}.Release|Win32.Build.0 = Release|Win32
+		{C10C88CB-10F8-4797-8AA4-65120C983072}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C10C88CB-10F8-4797-8AA4-65120C983072}.Debug|Win32.Build.0 = Debug|Win32
+		{C10C88CB-10F8-4797-8AA4-65120C983072}.Release|Win32.ActiveCfg = Release|Win32
+		{C10C88CB-10F8-4797-8AA4-65120C983072}.Release|Win32.Build.0 = Release|Win32
+		{CA6D2638-C173-4B1A-AD50-16284F1B215C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CA6D2638-C173-4B1A-AD50-16284F1B215C}.Debug|Win32.Build.0 = Debug|Win32
+		{CA6D2638-C173-4B1A-AD50-16284F1B215C}.Release|Win32.ActiveCfg = Release|Win32
+		{CA6D2638-C173-4B1A-AD50-16284F1B215C}.Release|Win32.Build.0 = Release|Win32
+		{CEC31E82-0B20-4AB2-8BA0-F8E066B12C5E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CEC31E82-0B20-4AB2-8BA0-F8E066B12C5E}.Debug|Win32.Build.0 = Debug|Win32
+		{CEC31E82-0B20-4AB2-8BA0-F8E066B12C5E}.Release|Win32.ActiveCfg = Release|Win32
+		{CEC31E82-0B20-4AB2-8BA0-F8E066B12C5E}.Release|Win32.Build.0 = Release|Win32
+		{E6460D68-E2B1-4F89-8FCB-B9A4BA3FEE70}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E6460D68-E2B1-4F89-8FCB-B9A4BA3FEE70}.Debug|Win32.Build.0 = Debug|Win32
+		{E6460D68-E2B1-4F89-8FCB-B9A4BA3FEE70}.Release|Win32.ActiveCfg = Release|Win32
+		{E6460D68-E2B1-4F89-8FCB-B9A4BA3FEE70}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

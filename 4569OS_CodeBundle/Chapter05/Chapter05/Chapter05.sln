@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicTexture", "DynamicTexture\DynamicTexture\DynamicTexture.vcxproj", "{9C617B24-E979-4757-8F6F-AB97EA66BCBC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeoImage", "GeoImage\GeoImage\GeoImage.vcxproj", "{DE5B391A-C75A-4BA5-8504-E53FC4A47FED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageEditor", "ImageEditor\ImageEditor\ImageEditor.vcxproj", "{E43B95BD-9E81-47F3-AD1A-07823F1B3DFC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MovableText", "MovableText\MovableText\MovableText.vcxproj", "{2A58E21F-CDDA-4615-A3C4-2F32FB54474B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TransparentMaterial", "TransparentMaterial\TransparentMaterial\TransparentMaterial.vcxproj", "{FEAA4CC8-9077-4B0B-902C-54CAFEA85CC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C617B24-E979-4757-8F6F-AB97EA66BCBC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9C617B24-E979-4757-8F6F-AB97EA66BCBC}.Debug|Win32.Build.0 = Debug|Win32
+		{9C617B24-E979-4757-8F6F-AB97EA66BCBC}.Release|Win32.ActiveCfg = Release|Win32
+		{9C617B24-E979-4757-8F6F-AB97EA66BCBC}.Release|Win32.Build.0 = Release|Win32
+		{DE5B391A-C75A-4BA5-8504-E53FC4A47FED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DE5B391A-C75A-4BA5-8504-E53FC4A47FED}.Debug|Win32.Build.0 = Debug|Win32
+		{DE5B391A-C75A-4BA5-8504-E53FC4A47FED}.Release|Win32.ActiveCfg = Release|Win32
+		{DE5B391A-C75A-4BA5-8504-E53FC4A47FED}.Release|Win32.Build.0 = Release|Win32
+		{E43B95BD-9E81-47F3-AD1A-07823F1B3DFC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E43B95BD-9E81-47F3-AD1A-07823F1B3DFC}.Debug|Win32.Build.0 = Debug|Win32
+		{E43B95BD-9E81-47F3-AD1A-07823F1B3DFC}.Release|Win32.ActiveCfg = Release|Win32
+		{E43B95BD-9E81-47F3-AD1A-07823F1B3DFC}.Release|Win32.Build.0 = Release|Win32
+		{2A58E21F-CDDA-4615-A3C4-2F32FB54474B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2A58E21F-CDDA-4615-A3C4-2F32FB54474B}.Debug|Win32.Build.0 = Debug|Win32
+		{2A58E21F-CDDA-4615-A3C4-2F32FB54474B}.Release|Win32.ActiveCfg = Release|Win32
+		{2A58E21F-CDDA-4615-A3C4-2F32FB54474B}.Release|Win32.Build.0 = Release|Win32
+		{FEAA4CC8-9077-4B0B-902C-54CAFEA85CC2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FEAA4CC8-9077-4B0B-902C-54CAFEA85CC2}.Debug|Win32.Build.0 = Debug|Win32
+		{FEAA4CC8-9077-4B0B-902C-54CAFEA85CC2}.Release|Win32.ActiveCfg = Release|Win32
+		{FEAA4CC8-9077-4B0B-902C-54CAFEA85CC2}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

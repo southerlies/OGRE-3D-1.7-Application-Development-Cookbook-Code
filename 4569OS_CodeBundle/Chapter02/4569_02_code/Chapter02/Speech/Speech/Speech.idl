@@ -1,0 +1,29 @@
+// Speech.idl : type library source for Speech.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (Speech.tlb).
+
+[ uuid(F4846CF8-E09C-47DA-868C-91431487E590), version(1.0) ]
+library Speech
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CSpeechDoc
+	
+	[ uuid(EE3E3D41-A623-40D1-8BC9-C5EB88E720A6) ]
+	dispinterface ISpeech
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CSpeechDoc
+	
+	[ uuid(C8ED2678-15C2-429B-A526-31AC7647C508) ]
+	coclass CSpeechDoc
+	{
+		[default] dispinterface ISpeech;
+	};
+};

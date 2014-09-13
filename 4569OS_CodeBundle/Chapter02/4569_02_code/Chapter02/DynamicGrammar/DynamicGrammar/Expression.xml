@@ -1,0 +1,21 @@
+﻿<GRAMMAR LANGID="409">
+  
+  <DEFINE>
+    <ID NAME="VID_ShowExpression" VAL="21"/>
+    <ID NAME="VID_ExpressionType" VAL="22"/>
+  </DEFINE>
+  
+  <RULE ID="VID_ShowExpression" TOPLEVEL="ACTIVE">
+    <O>Please</O>
+    <O>show</O>
+    <P>
+      <RULEREF REFID="VID_ExpressionType"/>
+    </P>
+    <O>expression</O>
+  </RULE>
+
+  <RULE ID="VID_ExpressionType" DYNAMIC="TRUE">
+    <P>placeholder</P>
+   </RULE>
+  
+</GRAMMAR>

@@ -1,0 +1,22 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+HKEY_CLASSES_ROOT\.scn,mesh = DynamicGrammar.Document
+HKEY_CLASSES_ROOT\DynamicGrammar.Document\shell\open\command = DynamicGrammar.EXE %1
+HKEY_CLASSES_ROOT\DynamicGrammar.Document\shell\open\ddeexec = [open("%1")]
+HKEY_CLASSES_ROOT\DynamicGrammar.Document\shell\open\ddeexec\application = DynamicGrammar
+    ; note: the application is optional
+    ;  (it defaults to the app name in "command")
+
+HKEY_CLASSES_ROOT\DynamicGrammar.Document = DynamicGrammar.Document
+
+
+HKEY_CLASSES_ROOT\DynamicGrammar.Document\CLSID = {12FA5758-39B2-4FF6-B41B-9258F7BA27E7}
+
+HKEY_CLASSES_ROOT\CLSID\{12FA5758-39B2-4FF6-B41B-9258F7BA27E7} = DynamicGrammar.Document
+HKEY_CLASSES_ROOT\CLSID\{12FA5758-39B2-4FF6-B41B-9258F7BA27E7}\ProgId = DynamicGrammar.Document
+
+HKEY_CLASSES_ROOT\CLSID\{12FA5758-39B2-4FF6-B41B-9258F7BA27E7}\LocalServer32 = DynamicGrammar.EXE

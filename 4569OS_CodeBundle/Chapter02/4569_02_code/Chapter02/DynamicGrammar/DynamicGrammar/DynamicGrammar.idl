@@ -1,0 +1,29 @@
+// DynamicGrammar.idl : type library source for DynamicGrammar.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (DynamicGrammar.tlb).
+
+[ uuid(BBD4DBE9-DA53-42F2-BF41-60426B585BA0), version(1.0) ]
+library DynamicGrammar
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CDynamicGrammarDoc
+	
+	[ uuid(D98A9905-73B5-41D3-BB63-B922BC49B213) ]
+	dispinterface IDynamicGrammar
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CDynamicGrammarDoc
+	
+	[ uuid(12FA5758-39B2-4FF6-B41B-9258F7BA27E7) ]
+	coclass CDynamicGrammarDoc
+	{
+		[default] dispinterface IDynamicGrammar;
+	};
+};

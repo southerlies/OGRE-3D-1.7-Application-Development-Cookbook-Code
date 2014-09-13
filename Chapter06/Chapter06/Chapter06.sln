@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PathWalking", "PathWalking\PathWalking.vcxproj", "{37A69756-1051-4771-8890-B6FA954FDFBF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PathDropping", "PathDropping\PathDropping.vcxproj", "{19A8F484-C451-4A6D-BC2D-D790D0194CB9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TerrainWalking", "TerrainWalking\TerrainWalking.vcxproj", "{7E41DB80-B796-4503-85BE-3DEDEB7203F7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CollisionDetection", "CollisionDetection\CollisionDetection.vcxproj", "{EE36A6B7-054D-422A-BA81-79C5568A1886}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedMovement", "LinkedMovement\LinkedMovement.vcxproj", "{1A6D47BA-0DBF-4986-843C-A306EFCD8FD8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Walking", "Walking\Walking.vcxproj", "{AF48068B-9C87-4C89-832C-3937651D441E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37A69756-1051-4771-8890-B6FA954FDFBF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{37A69756-1051-4771-8890-B6FA954FDFBF}.Debug|Win32.Build.0 = Debug|Win32
+		{37A69756-1051-4771-8890-B6FA954FDFBF}.Release|Win32.ActiveCfg = Release|Win32
+		{37A69756-1051-4771-8890-B6FA954FDFBF}.Release|Win32.Build.0 = Release|Win32
+		{19A8F484-C451-4A6D-BC2D-D790D0194CB9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{19A8F484-C451-4A6D-BC2D-D790D0194CB9}.Debug|Win32.Build.0 = Debug|Win32
+		{19A8F484-C451-4A6D-BC2D-D790D0194CB9}.Release|Win32.ActiveCfg = Release|Win32
+		{19A8F484-C451-4A6D-BC2D-D790D0194CB9}.Release|Win32.Build.0 = Release|Win32
+		{7E41DB80-B796-4503-85BE-3DEDEB7203F7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E41DB80-B796-4503-85BE-3DEDEB7203F7}.Debug|Win32.Build.0 = Debug|Win32
+		{7E41DB80-B796-4503-85BE-3DEDEB7203F7}.Release|Win32.ActiveCfg = Release|Win32
+		{7E41DB80-B796-4503-85BE-3DEDEB7203F7}.Release|Win32.Build.0 = Release|Win32
+		{EE36A6B7-054D-422A-BA81-79C5568A1886}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EE36A6B7-054D-422A-BA81-79C5568A1886}.Debug|Win32.Build.0 = Debug|Win32
+		{EE36A6B7-054D-422A-BA81-79C5568A1886}.Release|Win32.ActiveCfg = Release|Win32
+		{EE36A6B7-054D-422A-BA81-79C5568A1886}.Release|Win32.Build.0 = Release|Win32
+		{1A6D47BA-0DBF-4986-843C-A306EFCD8FD8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A6D47BA-0DBF-4986-843C-A306EFCD8FD8}.Debug|Win32.Build.0 = Debug|Win32
+		{1A6D47BA-0DBF-4986-843C-A306EFCD8FD8}.Release|Win32.ActiveCfg = Release|Win32
+		{1A6D47BA-0DBF-4986-843C-A306EFCD8FD8}.Release|Win32.Build.0 = Release|Win32
+		{AF48068B-9C87-4C89-832C-3937651D441E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AF48068B-9C87-4C89-832C-3937651D441E}.Debug|Win32.Build.0 = Debug|Win32
+		{AF48068B-9C87-4C89-832C-3937651D441E}.Release|Win32.ActiveCfg = Release|Win32
+		{AF48068B-9C87-4C89-832C-3937651D441E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

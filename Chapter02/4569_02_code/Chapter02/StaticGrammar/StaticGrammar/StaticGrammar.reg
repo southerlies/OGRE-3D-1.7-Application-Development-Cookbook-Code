@@ -1,0 +1,22 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+HKEY_CLASSES_ROOT\.scn,mesh = StaticGrammar.Document
+HKEY_CLASSES_ROOT\StaticGrammar.Document\shell\open\command = StaticGrammar.EXE %1
+HKEY_CLASSES_ROOT\StaticGrammar.Document\shell\open\ddeexec = [open("%1")]
+HKEY_CLASSES_ROOT\StaticGrammar.Document\shell\open\ddeexec\application = StaticGrammar
+    ; note: the application is optional
+    ;  (it defaults to the app name in "command")
+
+HKEY_CLASSES_ROOT\StaticGrammar.Document = StaticGrammar.Document
+
+
+HKEY_CLASSES_ROOT\StaticGrammar.Document\CLSID = {09878752-4BFE-4446-9CBA-10C320525BCA}
+
+HKEY_CLASSES_ROOT\CLSID\{09878752-4BFE-4446-9CBA-10C320525BCA} = StaticGrammar.Document
+HKEY_CLASSES_ROOT\CLSID\{09878752-4BFE-4446-9CBA-10C320525BCA}\ProgId = StaticGrammar.Document
+
+HKEY_CLASSES_ROOT\CLSID\{09878752-4BFE-4446-9CBA-10C320525BCA}\LocalServer32 = StaticGrammar.EXE

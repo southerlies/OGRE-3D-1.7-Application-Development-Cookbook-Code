@@ -1,0 +1,22 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+HKEY_CLASSES_ROOT\.scn,mesh = KeyboardInput.Document
+HKEY_CLASSES_ROOT\KeyboardInput.Document\shell\open\command = KeyboardInput.EXE %1
+HKEY_CLASSES_ROOT\KeyboardInput.Document\shell\open\ddeexec = [open("%1")]
+HKEY_CLASSES_ROOT\KeyboardInput.Document\shell\open\ddeexec\application = KeyboardInput
+    ; note: the application is optional
+    ;  (it defaults to the app name in "command")
+
+HKEY_CLASSES_ROOT\KeyboardInput.Document = KeyboardInput.Document
+
+
+HKEY_CLASSES_ROOT\KeyboardInput.Document\CLSID = {73B476C4-E62C-4BDA-B7EA-67647CC45592}
+
+HKEY_CLASSES_ROOT\CLSID\{73B476C4-E62C-4BDA-B7EA-67647CC45592} = KeyboardInput.Document
+HKEY_CLASSES_ROOT\CLSID\{73B476C4-E62C-4BDA-B7EA-67647CC45592}\ProgId = KeyboardInput.Document
+
+HKEY_CLASSES_ROOT\CLSID\{73B476C4-E62C-4BDA-B7EA-67647CC45592}\LocalServer32 = KeyboardInput.EXE

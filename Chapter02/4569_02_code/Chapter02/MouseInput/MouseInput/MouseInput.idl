@@ -1,0 +1,29 @@
+// MouseInput.idl : type library source for MouseInput.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (MouseInput.tlb).
+
+[ uuid(FC7B958E-6775-449F-8428-4E8C6A249256), version(1.0) ]
+library MouseInput
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CMouseInputDoc
+	
+	[ uuid(25D93ED6-3EA0-4047-BCEF-13E04D6C4943) ]
+	dispinterface IMouseInput
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CMouseInputDoc
+	
+	[ uuid(D8B75C1D-EAFC-4374-BE60-8180268994BA) ]
+	coclass CMouseInputDoc
+	{
+		[default] dispinterface IMouseInput;
+	};
+};

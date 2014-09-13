@@ -1,0 +1,29 @@
+// StaticGrammar.idl : type library source for StaticGrammar.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (StaticGrammar.tlb).
+
+[ uuid(9986F7E8-22A2-4C62-B1AE-D90BECE0D8CB), version(1.0) ]
+library StaticGrammar
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for CStaticGrammarDoc
+	
+	[ uuid(7B303943-8E53-4E9C-AAC1-09D5C7F9214F) ]
+	dispinterface IStaticGrammar
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for CStaticGrammarDoc
+	
+	[ uuid(09878752-4BFE-4446-9CBA-10C320525BCA) ]
+	coclass CStaticGrammarDoc
+	{
+		[default] dispinterface IStaticGrammar;
+	};
+};

@@ -1,0 +1,29 @@
+// OgreInRibbon.idl : type library source for OgreInRibbon.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (OgreInRibbon.tlb).
+
+[ uuid(8F8ECB4D-3DFE-4AA5-99F5-A6EF5F41832B), version(1.0) ]
+library OgreInRibbon
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primary dispatch interface for COgreInRibbonDoc
+	
+	[ uuid(23165206-081A-45B6-B638-ABCC106D38B4) ]
+	dispinterface IOgreInRibbon
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Class information for COgreInRibbonDoc
+	
+	[ uuid(001D7781-B45B-44EF-996B-E43F4EAF1B94) ]
+	coclass COgreInRibbonDoc
+	{
+		[default] dispinterface IOgreInRibbon;
+	};
+};
